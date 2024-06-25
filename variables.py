@@ -19,9 +19,16 @@ vegetable_length = 10  # длина cm
 vegetable_diameter = 2.5  # диаметр cm
 is_vegetable_ripe = True  # зрелый?
 
-print('Name of vegetable:', vegetable_name, type(vegetable_name))
-print('Color of vegetable:', vegetable_color, type(vegetable_color))
-print('Weight of vegetable:', vegetable_weight, type(vegetable_weight))
-print('Length of vegetable:', vegetable_length, type(vegetable_length))
-print('Diameter of vegetable:', vegetable_diameter, type(vegetable_diameter))
-print('Is vegetable ripe:', is_vegetable_ripe, type(is_vegetable_ripe))
+print('Name of vegetable:', vegetable_name)
+print('Color of vegetable:', vegetable_color)
+print('Weight of vegetable:', vegetable_weight)
+print('Length of vegetable:', vegetable_length)
+print('Diameter of vegetable:', vegetable_diameter)
+print('Is vegetable ripe:', is_vegetable_ripe)
+
+print('Type of vegetable_name:', type(vegetable_name))
+print('Type of vegetable_color:', type(vegetable_color))
+print('Type of vegetable_weight:', type(vegetable_weight))
+print('Type of vegetable_length:', type(vegetable_length))
+print('Type of vegetable_diameter:', type(vegetable_diameter))
+print('Type of is_vegetable_ripe:', type(is_vegetable_ripe))
