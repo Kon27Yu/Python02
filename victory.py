@@ -92,4 +92,4 @@ while not is_vict_over:
 
     answer = input('Начать игру сначала?')
     if answer != 'да' and answer != 'yes' and  answer != 'Да' and answer != 'Yes':
-        is_vict_over = False
+        is_vict_over = True
